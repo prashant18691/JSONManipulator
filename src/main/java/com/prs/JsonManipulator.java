@@ -86,6 +86,7 @@ public class JsonManipulator {
     }
 
     public static String getJson() throws Exception{
+        //https://raw.githubusercontent.com/arcjsonapi/expressionDataService/main/test1
         URL url = new URL ("https://raw.githubusercontent.com/arcjsonapi/ApiSampleData/master/api/users");
         HttpURLConnection httpCon = (HttpURLConnection) url.openConnection();
         httpCon.setRequestMethod("GET");
